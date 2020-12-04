@@ -9,7 +9,7 @@
   display: flex;
   justify-content: space-around;
   padding: 2px;
-  background-color:#4fb95dc0;
+  background-color: #4fb95dc0;
   border-radius: 10px 10px 0 0;
   border: 1px solid black;
   border-bottom: none;
@@ -69,4 +69,10 @@
 
 .post-comments > .comment-header:last-child hr {
   display: none;
+}
+
+@media only screen and (max-width: 500px) {
+  .comment-header h3 {
+    font-size: small;
+  }
 }
