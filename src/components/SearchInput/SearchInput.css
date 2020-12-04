@@ -31,3 +31,17 @@
   height: 85vh;
   overflow: hidden;
 }
+
+@media only screen and (max-width: 768px) {
+  .search-input > input {
+    width: 20rem;
+    font-size: large;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .search-input > input {
+    width: 10rem;
+    font-size: small;
+  }
+}
