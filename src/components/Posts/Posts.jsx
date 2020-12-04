@@ -11,7 +11,7 @@ const Posts = ({ posts, isLoading, queryStr }) => {
       <div className="posts-wrapper">
         {posts.length === 0 && queryStr.length > 0 && !isLoading ? (
           <label>
-            <img src={notFound} alt="#" className="not-found-icon" />
+            <img src={notFound} alt="not_found" className="not-found-icon" />
             Looks like we found nothing...
           </label>
         ) : (

@@ -38,7 +38,7 @@ const MainPage = () => {
 
   return (
     <div className="input-wrapper">
-      <img src={logo} alt="#" className="brixi-logo" />
+      <img src={logo} alt="logo" className="brixi-logo" />
       <SearchInput handleSearch={handleSearch} queryStr={queryStr} />
       <Posts
         posts={posts}

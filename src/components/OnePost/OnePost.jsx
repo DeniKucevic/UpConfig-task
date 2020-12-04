@@ -25,11 +25,11 @@ const OnePost = ({ body, id, userId, title }) => {
     <div className="one-post-wrapper">
       <div className="post-card-header">
         <div className="post-id">
-          <img src={idIcon} alt="#" />
+          <img src={idIcon} alt="id_icon" />
           <label>{id}</label>
         </div>
         <div className="post-id">
-          <img src={userIcon} alt="#" />
+          <img src={userIcon} alt="user_icon" />
           <label>{userId}</label>
         </div>
       </div>
