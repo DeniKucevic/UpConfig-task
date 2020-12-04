@@ -39,7 +39,9 @@ const OnePost = ({ body, id, userId, title }) => {
         </div>
         <div className="post-body">
           <p>{body}</p>
-          <button onClick={() => clickComments(id)}>comments</button>
+          <button onClick={() => clickComments(id)}>
+            {showComments ? "Close Comments" : "Open Comments"}
+          </button>
         </div>
         {showComments && (
           <div className="post-comments">

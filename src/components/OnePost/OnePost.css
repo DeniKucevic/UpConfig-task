@@ -43,6 +43,7 @@
   border-radius: 10px;
   padding: 7px;
   background-color: #dbc2a1;
+  outline: none;
 }
 
 .post-body > button:hover {
