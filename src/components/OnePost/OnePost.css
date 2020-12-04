@@ -1,0 +1,72 @@
+.one-post-wrapper {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  width: 90%;
+  margin: 4px;
+}
+.post-card-header {
+  display: flex;
+  justify-content: space-around;
+  padding: 2px;
+  background-color: lightblue;
+  border-radius: 10px 10px 0 0;
+  border: 1px solid black;
+  border-bottom: none;
+}
+.post-id {
+  display: flex;
+}
+.post-id > img {
+  width: 1rem;
+  padding: 0;
+  margin: 0;
+}
+.post-card-body {
+  border: 1px solid black;
+  border-radius: 0 0 10px 10px;
+}
+.post-title {
+  color: blue;
+  text-decoration: underline;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 1rem;
+}
+.post-body {
+  text-align: left;
+  padding-left: 1rem;
+}
+
+.post-body > button {
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  padding: 7px;
+  background-color: #dbc2a1;
+}
+
+.post-body > button:hover {
+  background-color: #a0907b;
+  cursor: pointer;
+}
+
+.comment-header {
+  padding: 1rem;
+}
+
+.comment-header p {
+  text-align: left;
+  padding-left: 25%;
+}
+
+.comment-header h3 {
+  text-align: left;
+}
+
+.comment-header > hr {
+  color: rgb(255, 255, 255);
+}
+
+.post-comments > .comment-header:last-child hr {
+  display: none;
+}
