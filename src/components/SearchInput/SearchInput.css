@@ -21,6 +21,7 @@
 .search-input > input:focus {
   border: 3px solid gray;
   filter: opacity(100%);
+  outline: none;
 }
 
 .search-input > input:focus::placeholder {
