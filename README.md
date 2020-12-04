@@ -1,7 +1,6 @@
 # UpCofing - task
 
 [LIVE DEMO](https://upconfig-task.netlify.app/)
-<a href="https://upconfig-task.netlify.app/" target="_blank">LIVE DEMO</a>
 
 ## About <a name = "about"></a>
 
